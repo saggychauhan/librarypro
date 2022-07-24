@@ -1,0 +1,23 @@
+[33mcommit 5b889b594522e87313281c343f18a1615d385c1f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: unknown <sagarchauhan32698@gmail.com>
+Date:   Sun Jul 24 13:15:04 2022 +0530
+
+    update requirements.txt
+
+[33mcommit f075bd97637f4a38198915f9270f0a08bb7bf3aa[m
+Author: unknown <sagarchauhan32698@gmail.com>
+Date:   Sun Jul 24 13:08:30 2022 +0530
+
+    rename procfile
+
+[33mcommit d8733a8ef65880fc7a22f3c270998b40201d304c[m
+Author: unknown <sagarchauhan32698@gmail.com>
+Date:   Sun Jul 24 12:30:50 2022 +0530
+
+    updated settings
+
+[33mcommit e1d9ef4da8a99f51dff161643404c7df520477f7[m
+Author: unknown <sagarchauhan32698@gmail.com>
+Date:   Sun Jul 24 10:10:15 2022 +0530
+
+    Initial commit
