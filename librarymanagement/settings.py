@@ -1,6 +1,5 @@
 import os
-import django_heroku
-from decouple import config
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -14,7 +13,7 @@ STATIC_DIR=os.path.join(BASE_DIR,'static')
 SECRET_KEY = 'k(6-_4sgig$sbrccr2*0=7s)bklpiywi#_121l)s(f8)dq^^wv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*','saggylib.herokuapp.com']
 
@@ -114,7 +113,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS=[
 STATIC_DIR,
  ]
-STATICFILES_STORAGE='whitenoice.storage.CompressedMainifestStaticFilesStorage'
+
 LOGIN_REDIRECT_URL='/afterlogin'
 
 #for email
@@ -124,6 +123,3 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'sagarchauhan32698@gmail.com'
 EMAIL_HOST_PASSWORD = ''
-
-
-django_heroku.setting(locals())
