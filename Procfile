@@ -1,1 +1,1 @@
-web: gunicorn app:app
+gunicorn library-management --log-file -
