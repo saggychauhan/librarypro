@@ -1,1 +1,1 @@
-gunicorn library-management --log-file -
+web: gunicorn librarymanagement.wsgi
